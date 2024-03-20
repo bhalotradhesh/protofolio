@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <!-- <script src="https://kit.fontawsome.com/c4254e24a8.js" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<style>
+
+</style>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 id="rr">RADHE</h1>
+                <!-- <img id="rr" src="/radhe.docx"> -->
+                <ul id="siemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#sarvices">services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Devloper</p>
+                <h1>Hi, I' m <span>Radhesh </span><br> Bhalot from indore </h1>
+            </div>
+        </div>
+    </div>
+    <!------------------------about------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/radhe 1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Web design in my passion not load a work elit. Numquam ipsa, error molestiae animi accusamus veniam odio sapiente corporis illum! Voluptas vitae laboriosam officia voluptates cumque ullam quisquam numquam recusandae quaerat.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tap-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designer Web/App interfaces</li>
+                            <li><span>Web Developement</span><br>Web app Developement
+                                <li>
+                                    <li><span>UI/UX</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tap-contents" id="Experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX DEsign Traning at ET Instituter</li>
+                            <li><span>2019 - 2021</span><br>Team lead at starApp LLC.
+                                <li>
+                                    <li><span>2017 - 2019</span><br>UI/UX DEsign Executive at coin disital Ltd.
+                                        <li>
+                                            <li><span>2016 - 2019</span><br>Internsip at ekart ecommerce.</li>
+                        </ul>
+                    </div>
+                    <div class="tap-contents" id="Education">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX DEsign Traning at ET Instituter</li>
+                            <li><span>2016</span><br>BBA from MIT Bangalore.
+                                <li>
+                                    <li><span>2014</span><br>BBA from IMS Bangalore.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------sarvices---------------------------------- -->
+    <div id="sarvices">
+        <div class="container">
+            <h1 class="sub-title">My Sarvices</h1>
+            <div class="sarvices-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> Web is design layout consectetur adipisicing elit. In, labore itaque earum commodi neque quis excepturi recusandae, deserunt praesentium fugiat nihil est corporis pariatur web is also website create and good show for user! </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-sharp fa-solid fa-crop-simple"></i> -->
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI is a full desgin for page and layout adipisicing elit. In, labore itaque earum commodi neque quis excepturi recusandae, deserunt praesentium fugiat nihil est corporis Ui is a user show a good atract!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-brands fa-app-store-ios"></i> -->
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>APP are also use website In, labore itaque earum commodi neque quis excepturi recusandae, deserunt praesentium fugiat nihil est corporis pariatur ea asperiores ut so many web site desgin like you aslo see in mobile app!
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------portfolio----------------------------- -->
+
+    <div id="portfolio">
+        <div class="container"></div>
+        <center>
+            <h1 class="sub-title">My Work</h1>
+        </center>
+        <div class="work-list">
+            <div class="work">
+                <img src="/work-1.png">
+                <div class="layer">
+                    <h3>Social Midia App</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo voluptatem voluptas maiores dicta ut tempore eaque! Dolore ad unde veritatis sint nulla laborum esse voluptatum. Incidunt facilis molestiae amet corporis!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/work-2.png">
+                <div class="layer">
+                    <h3>Musig App</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo voluptatem voluptas maiores dicta ut tempore eaque! Dolore ad unde veritatis sint nulla laborum esse voluptatum. Incidunt facilis molestiae amet corporis!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/work-3.png">
+                <div class="layer">
+                    <h3>Online sopping Midia App</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo voluptatem voluptas maiores dicta ut tempore eaque! Dolore ad unde veritatis sint nulla laborum esse voluptatum. Incidunt facilis molestiae amet corporis!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+
+
+    <!-- -------------------------contact---------------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-regular fa-paper-plane"></i> radheshbhalot@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 9302889672</p>
+                    <div class="social-icon">
+                        <br>
+                        <a href="htts://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="/My Resume.docx" download class="btn tbn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder=" Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <h3>&copy Made <i class="fa-solid fa-heart"></i> by Radhesh Bhalot</h3>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementByClassName("tab-links");
+        var tabcontents = document.getElementByClassName("tap-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var siemenu = document.getElementById("siemenu");
+
+        function openmenu() {
+            siemenu.style.right = "0";
+        }
+
+
+        function closemenu() {
+            siemenu.style.right = "-200px";
+
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxU6EHSkbceLEn3s2cVioddgVbzN0dWwVnkdVt17iuYFpMTk6pGARvd_27LayXfaQND/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "message sent successfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
